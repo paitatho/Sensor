@@ -19,8 +19,10 @@ Led::~Led()
 bool Led::lightOn()
 {
     digitalWrite(m_gpio, HIGH);
+    return true;
 }
 bool Led::lightoff()
 {
     digitalWrite(m_gpio, LOW);
+    return true;
 }

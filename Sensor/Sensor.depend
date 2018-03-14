@@ -9,3 +9,10 @@
 	<iostream>
 	<wiringPi.h>
 
+1521047445 source:/home/thomaspaita/Bureau/info/projet/Raspberry/Sensor/Sensor/sensor.cpp
+	"sensor.h"
+
+1521047445 /home/thomaspaita/Bureau/info/projet/Raspberry/Sensor/Sensor/sensor.h
+	<iostream>
+	<wiringPi.h>
+
