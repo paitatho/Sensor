@@ -1,11 +1,11 @@
 # depslib dependency file v1.0
-1521045950 source:/home/pi/projects/Sensor/Sensor/main.cpp
+1521048086 source:/home/pi/projects/Sensor/Sensor/main.cpp
 	"sensor.h"
 
-1521046758 source:/home/pi/projects/Sensor/Sensor/sensor.cpp
+1521048883 source:/home/pi/projects/Sensor/Sensor/sensor.cpp
 	"sensor.h"
 
-1521046179 /home/pi/projects/Sensor/Sensor/sensor.h
+1521048499 /home/pi/projects/Sensor/Sensor/sensor.h
 	<iostream>
 	<wiringPi.h>
 

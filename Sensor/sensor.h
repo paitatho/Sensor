@@ -6,15 +6,18 @@
 
 class Sensor
 {
-    private:
+    protected:
 
-        unsigned short m_gpio;
+        int m_gpio;
 
     public:
 
         Sensor(int numGpio);
         ~Sensor();
-        unsigned short getGpioValue();
+        int getGpioValue();
+        int getGpioNum();
+        void setInput();
+        void setOutput();
 };
 
 class Led : public Sensor
@@ -23,8 +26,14 @@ class Led : public Sensor
         Led(int gpio);
         ~Led();
         bool lightOn();
-        bool lightoff();
-}
+        bool lightOff();
+};
+
+class TouchSensor : public Sensor
+{	
+	public:
+		TouchSensor(int gpio);
+};
 
 
 #endif
